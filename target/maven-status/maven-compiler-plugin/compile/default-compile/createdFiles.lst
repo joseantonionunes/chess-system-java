@@ -1,10 +1,13 @@
 com\mycompany\jogoxadrez\boardgame\Board.class
+com\mycompany\jogoxadrez\chess\ChessException.class
 com\mycompany\jogoxadrez\Jogoxadrez.class
 com\mycompany\jogoxadrez\chess\ChessPiece.class
+com\mycompany\jogoxadrez\boardgame\BoardException.class
+com\mycompany\jogoxadrez\UI.class
+com\mycompany\jogoxadrez\boardgame\Piece.class
 com\mycompany\jogoxadrez\chess\pieces\King.class
 com\mycompany\jogoxadrez\boardgame\Position.class
-com\mycompany\jogoxadrez\UI.class
+com\mycompany\jogoxadrez\chess\ChessPosition.class
 com\mycompany\jogoxadrez\chess\Color.class
-com\mycompany\jogoxadrez\boardgame\Piece.class
 com\mycompany\jogoxadrez\chess\ChessMatch.class
 com\mycompany\jogoxadrez\chess\pieces\Rook.class
