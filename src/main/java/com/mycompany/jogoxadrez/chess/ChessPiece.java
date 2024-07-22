@@ -4,7 +4,7 @@ package com.mycompany.jogoxadrez.chess;
 import com.mycompany.jogoxadrez.boardgame.Board;
 import com.mycompany.jogoxadrez.boardgame.Piece;
 
-public class ChessPiece extends  Piece {
+public abstract class ChessPiece extends  Piece {
     
     private Color color;
 
