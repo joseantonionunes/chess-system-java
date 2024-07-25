@@ -1,6 +1,7 @@
 
 package com.mycompany.jogoxadrez;
 
+import com.mycompany.jogoxadrez.chess.ChessMatch;
 import com.mycompany.jogoxadrez.chess.ChessPiece;
 import com.mycompany.jogoxadrez.chess.ChessPosition;
 import com.mycompany.jogoxadrez.chess.Color;
@@ -84,5 +85,12 @@ public class UI {
             }
         }
         System.out.print(" ");
-	}
+    }
+    
+    public static void printMatch(ChessMatch chessMatch) {
+        printBoard(chessMatch.getPieces());
+        System.out.println();
+        System.out.println("Turn : " + chessMatch.getTurn());
+        System.out.println("Waiting player: " + chessMatch.getCurrentPlayer());
+    }
 }
