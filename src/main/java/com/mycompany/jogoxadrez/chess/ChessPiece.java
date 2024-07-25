@@ -3,6 +3,7 @@ package com.mycompany.jogoxadrez.chess;
 
 import com.mycompany.jogoxadrez.boardgame.Board;
 import com.mycompany.jogoxadrez.boardgame.Piece;
+import com.mycompany.jogoxadrez.boardgame.Position;
 
 public abstract class ChessPiece extends  Piece {
     
@@ -17,5 +18,8 @@ public abstract class ChessPiece extends  Piece {
         return color;
     }
     
-    
+    protected boolean isThereOpponentPiece(Position position) {
+        ChessPiece p = (ChessPiece)getBoard().piece(position);
+        return p != null && p.getColor() != color;
+    }
 }
