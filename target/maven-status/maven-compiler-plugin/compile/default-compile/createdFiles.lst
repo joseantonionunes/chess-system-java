@@ -6,6 +6,7 @@ com\mycompany\jogoxadrez\chess\ChessPiece.class
 com\mycompany\jogoxadrez\boardgame\BoardException.class
 com\mycompany\jogoxadrez\UI.class
 com\mycompany\jogoxadrez\boardgame\Piece.class
+com\mycompany\jogoxadrez\chess\pieces\Knight.class
 com\mycompany\jogoxadrez\chess\pieces\King.class
 com\mycompany\jogoxadrez\boardgame\Position.class
 com\mycompany\jogoxadrez\chess\ChessPosition.class
