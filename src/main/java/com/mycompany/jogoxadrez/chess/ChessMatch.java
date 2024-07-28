@@ -82,9 +82,6 @@ public class ChessMatch {
         }else{
             nextTurn();
         }
-        
-        
-        nextTurn();
         return (ChessPiece)capturedPiece;
     }
 
