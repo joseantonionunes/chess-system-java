@@ -10,4 +10,5 @@ com\mycompany\jogoxadrez\boardgame\Position.class
 com\mycompany\jogoxadrez\chess\ChessPosition.class
 com\mycompany\jogoxadrez\chess\Color.class
 com\mycompany\jogoxadrez\chess\ChessMatch.class
+com\mycompany\jogoxadrez\chess\pieces\Pawn.class
 com\mycompany\jogoxadrez\chess\pieces\Rook.class
