@@ -1,6 +1,7 @@
 com\mycompany\jogoxadrez\boardgame\Board.class
 com\mycompany\jogoxadrez\chess\ChessException.class
 com\mycompany\jogoxadrez\chess\pieces\Bishop.class
+com\mycompany\jogoxadrez\chess\pieces\Queen.class
 com\mycompany\jogoxadrez\Jogoxadrez.class
 com\mycompany\jogoxadrez\chess\ChessPiece.class
 com\mycompany\jogoxadrez\boardgame\BoardException.class
