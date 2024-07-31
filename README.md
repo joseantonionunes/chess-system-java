@@ -1,1 +1,3 @@
-# Em Construção...
+# Jogo de xadrez
+
+## Feito com java puro
